@@ -1,0 +1,58 @@
+\newcommand{\errorsFminFOBBOnevalue}{
+4.02e-07}
+\newcommand{\errorsAnalyticPMarketFOBBOnevalue}{
+2.69e-06}
+\newcommand{\errorsAnalyticQPDFOBBOnevalue}{
+0.000128}
+\newcommand{\errorsAnalyticPSimPFOBBOnevalue}{
+0.000242}
+\newcommand{\errorsAnalyticQSimQFOBBOnevalue}{
+0.000787}
+\newcommand{\errorsFminFOBBTwovalue}{
+3.94e-05}
+\newcommand{\errorsAnalyticPMarketFOBBTwovalue}{
+2.35e-05}
+\newcommand{\errorsAnalyticQPDFOBBTwovalue}{
+0.00138}
+\newcommand{\errorsAnalyticPSimPFOBBTwovalue}{
+0.000384}
+\newcommand{\errorsAnalyticQSimQFOBBTwovalue}{
+0.00082}
+\newcommand{\errorsFminFOBBThreevalue}{
+1.21e-05}
+\newcommand{\errorsAnalyticPMarketFOBBThreevalue}{
+0.000101}
+\newcommand{\errorsAnalyticQPDFOBBThreevalue}{
+0.00068}
+\newcommand{\errorsAnalyticPSimPFOBBThreevalue}{
+0.00057}
+\newcommand{\errorsAnalyticQSimQFOBBThreevalue}{
+0.00102}
+\newcommand{\errorsFminFOBBFourvalue}{
+0.000126}
+\newcommand{\errorsAnalyticPMarketFOBBFourvalue}{
+0.000464}
+\newcommand{\errorsAnalyticQPDFOBBFourvalue}{
+0.00239}
+\newcommand{\errorsAnalyticPSimPFOBBFourvalue}{
+0.000866}
+\newcommand{\errorsAnalyticQSimQFOBBFourvalue}{
+0.00158}
+\newcommand{\errorsFOBB}{
+\begin{tabular}{|c|*{4}{c}|}
+\hline
+\diagbox{Error}{Time} & $0.083$ & $0.250$ & $0.500$ & $1.000$ \\
+\hline
+Fmin & $4.02e-07$ & $3.94e-05$ & $1.21e-05$ & $0.000126$ \\
+$\mathrm{U}^{\mathbb{P}}_{\mathrm{kol}}-\mathrm{R}$ & $3.12e-06$ & $2.43e-05$ & $0.000102$ & $0.000464$ \\
+$\mathrm{U}^{\mathbb{Q}}_{\mathrm{kol}}e_K-\mathrm{PD}$ & $0.000129$ & $0.00138$ & $0.000679$ & $0.00239$ \\
+$\mathrm{U}^{\mathbb{P}}_{\mathrm{ana}}-\mathrm{R}$ & $2.69e-06$ & $2.35e-05$ & $0.000101$ & $0.000464$ \\
+$\mathrm{U}^{\mathbb{Q}}_{\mathrm{ana}}e_K-\mathrm{PD}$ & $0.000128$ & $0.00138$ & $0.00068$ & $0.00239$ \\
+$\mathrm{XP}^{\mathbb{P}}-\mathrm{R}$ & $0.000239$ & $0.000396$ & $0.000646$ & $0.00109$ \\
+$\mathrm{XP}^{\mathbb{P}}-\mathrm{U}^{\mathbb{P}}$ & $0.000242$ & $0.000385$ & $0.000572$ & $0.000869$ \\
+$\mathrm{XQ}^{\mathbb{Q}}-\mathrm{U}^{\mathbb{Q}}$ & $0.000795$ & $0.000986$ & $0.00106$ & $0.0016$ 
+\\\hline
+\end{tabular}
+}
+\newcommand{\errorsFOBBCaption}{
+\caption{Errors}}
